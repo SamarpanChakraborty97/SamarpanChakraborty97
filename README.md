@@ -18,7 +18,7 @@ I am a data scientist pursuing Ph.D. in Mechanical Engineering at the University
 1. **Spatio-temporal rogue wave forecasting:** Wave time series data from a set of localized buoys, drawn from the same set of buoy data have been utilized to train a combination of graph convolutional network and a LSTM with graph edges constructed using the distance between the buoys. The graph convolutions are used for spatial mapping while the LSTM network utilizes the graph learnings for time series prediction. 
 - **Technologies:** Python, Pandas, PyTorch Geometric, NetworkX, PyTorch 
 - **Key Highlights:** Forecasting of rogue waves over a **10-minute horizon window** led to more than **71% accuracy on the largest rogue waves**, which has not been achieved before.
-- [Rogue wave forecasting]
+- [Rogue wave forecasting](https://github.com/SamarpanChakraborty97/Rogue-Wave-Classification)
 
 ### 2. 🌊 Time Series Imputation using CNNs, LSTMs & Singular Spectrum Analysis(SSA)
 **Description:** This project investigates multiple time series missing value imputation methods for ocean wave buoy measurements. The study compares different models by filling continuous gaps of varied sizes, leveraging a wave model that decomposes wave elevation into rapid oscillations with slowly varying amplitudes. The imputation approaches utilize these amplitudes either directly in a CNN+LSTM network leveraging an attention mechanism to impute missing values or via surface elevation reconstruction for SSA. The research also explores the effect of modifying the peak regularization factor in the wave model on imputation accuracy.
